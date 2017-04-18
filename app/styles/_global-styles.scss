@@ -1,7 +1,6 @@
 
 body {
-   background: url(../images/DSC_7507.jpg) no-repeat center fixed;
-   /*background: url(../images/duchess-for-web-small.jpg) no-repeat center fixed;*/
+   background: url(../images/chika-splash1.jpg) no-repeat center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -ms-background-size: cover;
@@ -12,7 +11,7 @@ body {
 
 h1, h2 {
    color: black;
-   font-family: 'Cinzel', serif;
+   font-family: 'Syncopate', sans-serif;
  }
 
 h3 {
@@ -23,7 +22,7 @@ h3 {
 
 h4 {
   color: $highlight;
-  font-family: 'Cinzel', serif;
+  font-family: 'Syncopate', sans-serif;
   font-size: 20pt;
 }
 
@@ -72,29 +71,21 @@ li {
 .statement {
   position: relative;
   top: 400px;
-  background-color: black;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); /* Standard syntax (must be last) */
   height: auto;
-  min-height: 300px;
+  min-height: 700px;
 }
 
 .statement p {
   vertical-align: middle;
   height: auto;
+  width: 100%;
   margin: auto;
   margin-top: 50px;
   padding: 50px;
   color: white;
-  font-size: 24pt;
-}
-
-.quote p {
-  height: 40px;
-  width: 30px;
-  margin: auto;
-  margin-top: 30px;
-  padding: 0;
-  font-family: 'Cinzel', serif;
-  font-size: 100pt;
+  font-size: 32pt;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 /* Skills ------------------------- */
