@@ -1,0 +1,27 @@
+/*title stuff-----------------------*/
+
+.main-title {
+  position: relative;
+  top: 100px;
+  margin: auto;
+}
+
+#main-heading {
+  margin-top: 400px;
+  color: black;
+  float: right;
+}
+
+@media only screen and (min-width: 400px){
+  #main-heading {
+    margin-top: 250px;
+    margin-left: 50px;
+    width: 450px;
+    font-size: 45pt;
+    color: black;
+  }
+}
+
+#main-heading span {
+  color: gray;
+}

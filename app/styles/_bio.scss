@@ -1,0 +1,44 @@
+/*Bio*--------------------------------*/
+
+.bio {
+  position: relative;
+  top: 400px;
+  height: auto;
+  min-height: 300px;
+  background-color: gray;
+}
+
+.bio h2, .bio p {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.bio p {
+  vertical-align: middle;
+  height: auto;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  font-size: 11pt;
+}
+
+dt {
+  font-size: 12pt;
+  margin-top: 10px;
+  font-family: 'Cinzel',serif;
+}
+
+dd {
+  font-size: 10pt;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+dt, dd {
+  color: white;
+  text-align: center;
+}
+
+dl {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

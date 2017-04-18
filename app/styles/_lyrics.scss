@@ -1,0 +1,21 @@
+/*Lyrics section-----------------*/
+
+.lyrics {
+  position: relative;
+  top: 400px;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); /* Standard syntax (must be last) */
+  height: auto;
+  min-height: 700px;
+}
+
+.lyrics p {
+  vertical-align: middle;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  color: white;
+  font-size: 32pt;
+  font-family: 'Julius Sans One', sans-serif;
+}

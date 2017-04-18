@@ -1,0 +1,40 @@
+/* Music ------------------------- */
+
+.music {
+  position: relative;
+  top: 400px;
+  color: black;
+  background-color: white;
+  height: auto;
+  min-height: 400px;
+}
+
+.album {
+  line-height: 300px;
+  height: 300px;
+  text-align: center;
+  /*background-color: #EAE6FF;*/
+}
+
+/*.album-odd {
+  background-color: #BBB8CC;
+}*/
+
+.album-label {
+  display: inline-block;
+  line-height: 1.5;
+  color: white;
+  vertical-align: middle;
+}
+
+/*#album-one {
+  background: url(../images/bossa-nova-one.JPG) no-repeat center;
+}
+
+#album-two {
+  background: url(../images/memories-one.jpg) no-repeat center;
+}
+
+#album-three {
+  background: url(../images/bossa-nova-2.jpg) no-repeat center;
+}*/

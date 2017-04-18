@@ -10,17 +10,26 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 //Global styles
 @import "global-styles.scss";
 
+//Main Title
+@import "main-title.scss";
+
 //navbar
 @import "navbar.scss";
 
-//collapse-well-styles
-@import "collapse-styles";
+//Lyrics section
+@import "lyrics.scss";
+
+//Music
+@import "music.scss";
+
+//Bio
+@import "bio.scss";
+
+//Contact
+@import "contact.scss";
 
 //Shuffle JS styles
 @import "shuffle-styles";
 
 //Footer
 @import "footer";
-
-//Modals
-@import "modal-styles";

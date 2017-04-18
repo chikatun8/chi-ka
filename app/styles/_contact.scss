@@ -1,0 +1,44 @@
+/*Contact*-----------------------------*/
+
+.contact {
+  position: relative;
+  top: 400px;
+  height: auto;
+  min-height: 300px;
+  background-color: #F4F2FF;
+}
+
+.contact-spacer {
+  height: 40px;
+  width: auto;
+}
+
+@media only screen and (min-width: 400px){
+  .contact-spacer {
+    height: 100px;
+    width: auto;
+  }
+}
+
+.contact img {
+  display: block;
+  margin: auto;
+  width: 50px;
+}
+
+figure {
+  padding: 10px;
+}
+
+figcaption {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 10pt;
+
+}
+
+.contact h2 {
+  color: white;
+}
