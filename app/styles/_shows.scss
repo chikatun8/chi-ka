@@ -1,6 +1,6 @@
 /* Music ------------------------- */
 
-.music {
+.shows {
   position: relative;
   top: 400px;
   color: black;
@@ -9,11 +9,14 @@
   min-height: 400px;
 }
 
-.album {
-  line-height: 300px;
+.show-info {
   height: 300px;
   text-align: center;
-  background-color: #EAE6FF;
+  background-color: white;
+}
+
+.show-info p {
+  width: 100%;
 }
 
 .album-odd {
@@ -26,15 +29,3 @@
   color: white;
   vertical-align: middle;
 }
-
-/*#album-one {
-  background: url(../images/bossa-nova-one.JPG) no-repeat center;
-}
-
-#album-two {
-  background: url(../images/memories-one.jpg) no-repeat center;
-}
-
-#album-three {
-  background: url(../images/bossa-nova-2.jpg) no-repeat center;
-}*/
