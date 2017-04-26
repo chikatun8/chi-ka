@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(".nav li").on("click",function(){$(".nav li").removeClass("active"),$(this).addClass("active")}),$(window).scroll(function(){$(window).scrollTop()>100?$(".nav-bg-fade").fadeIn(500):$(".nav-bg-fade").fadeOut(500)}),$(".skill-box").hover(function(){$(this).children("h2").fadeOut(500)},function(){$(this).children("h2").fadeIn()})});
