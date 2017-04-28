@@ -20,12 +20,15 @@
   background-color: #BBB8CC;
 }
 
-.album-label {
+.album p{
   display: inline-block;
   line-height: 1.5;
   color: white;
   vertical-align: middle;
+  font-size: 30pt;
 }
+
+/*Background images------*/
 
 #album-one {
   background: url(../images/Chika-pics-final/kokorohane.jpg) no-repeat center;
