@@ -1,11 +1,19 @@
 /*Contact*-----------------------------*/
 
+.fade-away {
+  position: relative;
+  top: 400px;
+  height: auto;
+  background-color: white;
+  min-height: 300px;
+  width: 100%;
+}
 .contact {
   position: relative;
   top: 400px;
   height: auto;
   min-height: 300px;
-  background-color: #F4F2FF;
+  background-color: white;
 }
 
 .contact-spacer {
