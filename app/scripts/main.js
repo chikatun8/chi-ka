@@ -17,13 +17,14 @@ $(document).ready(function(){
  	  };
   });
 
-  /*Skill box interactivity*/
+  /*Music tile interactivity*/
 
-  $('.skill-box').hover(function(){
-    $(this).children('h2').fadeOut(500);
-
+  /*$('.album').hover(function(){
+    var elid = $(this).attr('id');
+    $('#'+elid).css('background','url(../images/Chika-pics-final/kokorohane-bw.jpg) no-repeat center');
+    console.log(elid);
   }, function(){
-    $(this).children('h2').fadeIn();
-  });
+    console.log("whoa");
+  });*/
 
 })

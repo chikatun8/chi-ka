@@ -11,51 +11,71 @@
 
 .album {
   line-height: 300px;
-  height: 300px;
-  text-align: center;
+  height: 50px;
+  text-align: right;
   background-color: #EAE6FF;
+  margin: 10px;
 }
 
 .album-odd {
   background-color: #BBB8CC;
 }
 
-.album p{
+.album-title {
+  height: 50px;
+
+}
+
+.album-pic {
+  height: 50px;
+  background-color: blue;
+}
+
+.album-title p {
+  font-size: 18pt;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+  text-align: right;
+  padding-top: 8px;
+  margin-right: 50px;
+}
+
+.vert-bar {
+  height: 100%;
+  width: 8px;
+  background-color: black;
+}
+/*.album-title p {
   display: inline-block;
   line-height: 1.5;
-  color: white;
+  color: black;
   vertical-align: middle;
-  font-size: 30pt;
-}
+  font-size: 18pt;
+  margin-top: 10px;
+}*/
 
 /*Background images------*/
 
 #album-one {
-  background: url(../images/Chika-pics-final/kokorohane.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../images/Chika-pics-final/kokorohane-bw.jpg) no-repeat center;
 }
 
 #album-two {
-  background: url(../images/Chika-pics-final/negai.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../images/Chika-pics-final/negai-bw.jpg) no-repeat center;
 }
 
 #album-three {
-  background: url(../images/Chika-pics-final/shikisai.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../images/Chika-pics-final/shikisai-bw.jpg) no-repeat center;
 }
 
 #album-four {
-  background: url(../images/Chika-pics-final/with-you-1.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../images/Chika-pics-final/with-you-1-bw.jpg) no-repeat center;
 }
 
 #album-five {
-  background: url(../images/Chika-pics-final/with-you-2.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../images/Chika-pics-final/with-you-2-bw.jpg) no-repeat center;
 }
 
 #album-six {
-  background: url(../images/Chika-pics-final/bossa-nova.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../images/Chika-pics-final/bossa-nova-bw.jpg) no-repeat center;
 }
