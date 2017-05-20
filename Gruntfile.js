@@ -44,6 +44,12 @@ module.exports = function (grunt) {
          remote: 'git@github.com:lukegreen/chi-ka.git',
          branch: 'gh-pages'
        }
+     },
+     chika: {
+       options: {
+         remote: 'git@github.com:chikatun8/chikatun8.github.io.git',
+         branch: 'master'
+       }
      }
    },
 
